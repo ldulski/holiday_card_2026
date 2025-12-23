@@ -1,7 +1,42 @@
+@font-face {
+    font-family: "Charmer";
+    src: url(/z_typeface/Charmer\ TM.otf);
+}
+
+
 body {
     max-width: 1920px;
     max-height: 100%;
     background-image: url(/z_graphics/Holiday-Website-Collage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div {
+    max-width: 600px;
+    margin: 100px 0px 0px 165px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Charmer", serif;
+    font-size: 5.61rem;
+    margin: 0;
+    color: #621708;
+}
+
+.card-main {
+
+    font-family: "Charmer", serif;
+    font-size: 2.369rem;
+    line-height: 3rem;
+    margin: 0;
+    color: #621708;
+}
+
+p {
+    font-family: "Charmer", serif;
+    font-size: 1.777rem;
+    margin: 15px 0px 0px 0px;
+    color: #621708;
 }
