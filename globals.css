@@ -26,10 +26,10 @@ h1 {
 }
 
 .card-main {
-
     font-family: "Charmer", serif;
     font-size: 2.369rem;
     line-height: 3rem;
+    letter-spacing: 0.10rem;
     margin: 0;
     color: #621708;
 }
