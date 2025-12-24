@@ -5,6 +5,7 @@ const numOfSnowFlakes = 300;
 const maxSnowFlakeSize = 5;
 const maxSnowFlakeSpeed = 2;
 const snowFlakeColor = '#000';
+const snowflakes = [];
 
 // Canvas
 const canvas = document.createElement('canvas');
@@ -57,4 +58,4 @@ for (let i = 0; i < numOfSnowFlakes; i++) {
     snowflakes.push(createSnowFlake());
 };
 
-animate();
+setInterval(animate, 20);
