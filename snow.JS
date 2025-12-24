@@ -4,7 +4,7 @@ console.log("It's the most...");
 const numOfSnowFlakes = 300;
 const maxSnowFlakeSize = 5;
 const maxSnowFlakeSpeed = 2;
-const snowFlakeColor = '#000';
+const snowFlakeColor = '#bde0fe';
 const snowflakes = [];
 
 // Canvas
