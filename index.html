@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Logan ♡ </title>
     <link rel="stylesheet" href="globals.css">
-    <script src="snow.JS" defer></script>
+    <script src="snowfall.min.js" defer></script>
 </head>
 <body>
-    <div id="holiday-cheer">
-        <h1>Season's Greetings!</h1>
-        <p class="card-main">Wishing You Holiday Cheer and a Happy New Year from Dublin, Ireland ☘︎</p>
-        <p>With love, <br> Logan xo</p>
+    <div class="holiday-cheer">
+
+            <h1>Season's Greetings!</h1>
+            <p class="card-main">Wishing You Holiday Cheer and a Happy New Year from Dublin, Ireland ☘︎</p>
+            <p>With love, <br> Logan xo</p>
+
     </div>
 </body>
+
+<script>
+    snowFall.snow(document.querySelector(".holiday-cheer"),{
+        round: true,
+        minSize: 1,
+        maxSize:6,
+    });
+</script>
 </html>
